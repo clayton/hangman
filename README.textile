@@ -12,6 +12,13 @@ h3. Instructions
 
 There is a sound, working test suite in @/test/RunAllTests.html@ and a test suite with example TDD smells in @/test/RunAllSmells.html@
 
+h3. Projet Resources
+
+* "Backbone.JS":http://documentcloud.github.com/backbone/
+* "Underscore.JS":http://documentcloud.github.com/underscore/
+* "Sinon.JS":http://sinonjs.org/
+* "QUnit":http://docs.jquery.com/Qunit
+
 h3. Additional Resources
 
 * "Flipping the Bit":http://blog.8thlight.com/uncle-bob/2012/01/11/Flipping-the-Bit.html
