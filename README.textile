@@ -11,3 +11,12 @@ h3. Three Rules of TDD
 h3. Instructions
 
 There is a sound, working test suite in @/test/RunAllTests.html@ and a test suite with example TDD smells in @/test/RunAllSmells.html@
+
+h3. Additional Resources
+
+* "Flipping the Bit":http://blog.8thlight.com/uncle-bob/2012/01/11/Flipping-the-Bit.html
+* "TDD Anti-Patters":http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/
+* "Three Rules of TDD":http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
+* "Growing Object-Oriented Software, Guided by Tests":http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627
+* "Clean Coders: TDD Part 1":http://www.cleancoders.com/codecast/clean-code-episode-6-part-1/show
+* "Clean Coders: TDD Part 2":http://www.cleancoders.com/codecast/clean-code-episode-6-part-2/show
