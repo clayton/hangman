@@ -1,0 +1,2 @@
+$(this.el).html(_.template(this.template,{man:"", remainingLetters:""}));
+$("#gameboard").append(this.el);
