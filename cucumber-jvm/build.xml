@@ -34,12 +34,12 @@
 
     <target name="compile" depends="classpath">
         <mkdir dir="target/classes"/>
-        <javac srcdir="src/com/claytonlz/hangman/cucumber/jvm/java" destdir="target/classes" classpathref="classpath" includeantruntime="false"/>
+        <javac srcdir="src/com/claytonlz/hangman/java/main" destdir="target/classes" classpathref="classpath" includeantruntime="false"/>
     </target>
 
     <target name="compile-test" depends="compile,classpath">
         <mkdir dir="target/test-classes"/>
-        <javac srcdir="src/com/claytonlz/hangman/cucumber/jvm/test/steps" destdir="target/test-classes" classpathref="classpath" includeantruntime="false"/>
+        <javac srcdir="src/com/claytonlz/hangman/java/test/steps" destdir="target/test-classes" classpathref="classpath" includeantruntime="false"/>
     </target>
 
     <target name="runcukes" depends="compile-test">
@@ -53,8 +53,8 @@
             <arg value="--format"/>
             <arg value="html:target/cucumber-html-report"/>
             <arg value="--glue"/>
-            <arg value="cucumber.examples.java.helloworld"/>
-            <arg value="src/com/claytonlz/hangman/cucumber/jvm/test/resources"/>
+            <arg value="com.claytonlz.hangman"/>
+            <arg value="src/com/claytonlz/hangman/java/test/features"/>
         </java>
 
         <junitreport todir="target/cucumber-junit-report">
